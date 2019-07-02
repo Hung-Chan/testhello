@@ -1,0 +1,17 @@
+{
+    "name": "testpackage/testhello",
+    "description": "Test-Holle",
+    "authors": [
+        {
+            "name": "fa0119",
+            "email": "chted119@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "testpackage\\testhello\\": "packages/testpackage/testhello/src"
+        }
+    }
+}
